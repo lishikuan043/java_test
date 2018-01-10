@@ -14,11 +14,11 @@ public class Day23_test6 {
         System.out.println("Input source floder:");
         String source = scanner.next();
         //System.out.println("Input target floder:");
-        String target = "E:\\Java_test\\resource\\";
+        String target = "E:\\Java_test\\resource\\floder\\";
         File sourceaddr = new File(source);
         File[] files = sourceaddr.listFiles();
         for (File f: files) {
-            if (f.isFile()) {
+            if (f.isFile() && f.getName().endsWith(".java")) {
                 copyfile(f.getAbsolutePath(),target  + f.getName());
             }
         }
