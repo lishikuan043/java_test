@@ -1,0 +1,16 @@
+to=3
+think=1
+change=1
+horse=1
+your=1
+learn=1
+come=1
+you=2
+the=1
+I=1
+must=1
+fate=1
+dark=1
+java=1
+If=1
+want=1

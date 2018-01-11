@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /**
  * Created by Administrator on 2018/1/10.
- * 从控制台获取输入的文件目录然后将该目录(包含子目录)下的.java文件复制到D:/java文件夹中
+ * 从控制台获取输入的文件目录然后将该目录(包含子目录)下的.java文件复制到E:\Java_test\resource\floder\文件夹中
  */
 public class Day23_test6 {
     public static void main(String[] args) {
