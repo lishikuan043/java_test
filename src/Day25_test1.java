@@ -1,9 +1,5 @@
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
 
 /**
  * Created by Administrator on 2018/1/12.
@@ -14,6 +10,12 @@ import java.util.Scanner;
  (4)读取E:\Java_test\resource\StudentInfo.txt文件中的ArrayList对象
  (5)对ArrayList集合中的6个学生对象进行去重并按照年龄从小到大的顺序排序
  (6)将ArrayList集合中排序后的结果利用PrintWriter流写入到E:\Java_test\resource\StudentInfo_1.txt文件中(写入格式：张三-男-25)
+ 输入：  赵，男，10
+        钱，男，12
+        孙，男，15
+        李，女，20
+        孙，男，15
+        钱，女，20
  */
 public class Day25_test1 {
     public static void main(String[] args) throws Exception {
@@ -35,8 +37,23 @@ public class Day25_test1 {
 
         FileInputStream fis = new FileInputStream("E:\\Java_test\\resource\\StudentInfo.txt");
         ObjectInputStream ois = new ObjectInputStream(fis);
-
-
-
+        ArrayList<Student> studentList = new ArrayList<>();
+        studentList = (ArrayList<Student>) ois.readObject();
+        System.out.println("Read student:");
+        System.out.println(studentList);
+        HashSet<Student> hashSet = new HashSet<>(studentList);
+        System.out.println("Remove same student:");
+        System.out.println(hashSet);
+        studentList = new ArrayList<Student>(hashSet);
+        Collections.sort(studentList);
+        System.out.println("After sort:");
+        System.out.println(studentList);
+        FileOutputStream fileOutputStream = new FileOutputStream("E:\\Java_test\\resource\\StudentInfo_1.txt");
+        PrintWriter printWriter = new PrintWriter(fileOutputStream);
+        for (Student s : studentList) {
+            printWriter.println(s.toString());
+            System.out.println(s.toString());
+        }
+        printWriter.close();
     }
 }
