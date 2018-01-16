@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Random;
 import java.util.concurrent.ExecutorService;
@@ -16,75 +17,62 @@ import java.util.concurrent.locks.ReentrantLock;
  从前门入场的员工总共: 87 位员工
  */
 public class Day27_test2 {
-    private static int i = 100;
-
-    private static class door implements Runnable{
-        String name;
-        private int count= 0;
-        private int time;
-
-        public void setInterrupted(boolean interrupted) {
-            this.interrupted = interrupted;
-        }
-
-        private boolean interrupted;
-
-        public door(String name,int time) {
-            this.name = name;
-            this.time = time;
-        }
+    private static class door implements Runnable {
+        private static int n = 100;
+        private int front = 0;
+        private int back = 0;
 
         @Override
         public void run() {
-            while (!interrupted) {
-                if (i > 0) {
-                    //lock.lock();
-                    getIn();
-                    //lock.unlock();
-                } else {
-                    interrupted = true;
-                }
-
-                try {
-                    Thread.sleep(time);
-                } catch (InterruptedException e) {
-                    System.out.println(e);
+            while (true) {
+                synchronized (this) {
+                    if (n > 0) {
+                        if (Thread.currentThread().getName().equals("前门")) {
+                            System.out.println("编号为:" + n + "的员工从 " + Thread.currentThread().getName() +  " 入场! 拿到的双色球彩票号码是:" + Arrays.toString(getNum()));
+                            n--;
+                            front++;
+                            try {
+                                Thread.sleep(100);
+                            } catch (InterruptedException e) {
+                                e.printStackTrace();
+                            }
+                        } else if (Thread.currentThread().getName().equals("后门")) {
+                            System.out.println("编号为:" + n + "的员工从 " + Thread.currentThread().getName() +  " 入场! 拿到的双色球彩票号码是:" + Arrays.toString(getNum()));
+                            n--;
+                            back++;
+                            try {
+                                Thread.sleep(200);
+                            } catch (InterruptedException e) {
+                                e.printStackTrace();
+                            }
+                        }
+                    } else if (n == 0) {
+                        System.out.println("从 前门 入场的员工总共: " + front + " 位员工.");
+                        System.out.println("从 后门 入场的员工总共: " + back + " 位员工.");
+                        n--;
+                    } else if (n < 0) {
+                        return;
+                    }
                 }
             }
-            System.out.println(name+ " 关闭！");
-            System.out.println("从" + name + "入场的员工总共: " + count + " 位员工.");
         }
 
-        public synchronized void getIn() {
-            count++;
+        private int[] getNum() {
             Random random = new Random();
-            HashSet<Integer> hashSet = new HashSet<>();
-            for (int j = 0; j < 7; j++) {
-                hashSet.add(random.nextInt(50));
+            int[] ints = new int[7];
+            for (int i = 0; i < 7; i++) {
+                ints[i] = random.nextInt(50);
             }
-            System.out.println("编号为: " + i-- + " 的员工 从" + name + " 入场! 拿到的双色球彩票号码是:" + hashSet);
-
-        }
-
-        public int getCount() {
-            return count;
+            return ints;
         }
     }
 
     public static void main(String[] args) {
-        ExecutorService es = Executors.newCachedThreadPool();
-        door door1 = new door("前门",200);
-        door door2 = new door("后门",100);
-        es.submit(door1);
-        es.submit(door2);
-        try {
-            Thread.sleep(30000);
-            door1.setInterrupted(true);
-            door2.setInterrupted(true);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        es.shutdownNow();
+        door d = new door();
+        Thread t1 = new Thread(d,"前门");
+        Thread t2 = new Thread(d,"后门");
+        t1.start();
+        t2.start();
     }
 
 }
