@@ -16,4 +16,8 @@
 
  */
 public class Day29_JDBCDemo {
+
+    public static void main(String[] args) {
+
+    }
 }
