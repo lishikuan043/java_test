@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb0d6942-0dd4-4c8b-a60e-4667b523fd2b" name="Default" comment="Some changes.(update to Day29_test1)">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/JDBCconfig.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Day29_test1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JDBCUtilsConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JDBCconfig.properties" />
+    <list default="true" id="bb0d6942-0dd4-4c8b-a60e-4667b523fd2b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Day29_JDBCDemo1.java" afterPath="$PROJECT_DIR$/src/Day29_JDBCDemo1.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -585,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517649566274</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Some changes.(update to Day29_test1)">
+      <created>1517670879158</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1517670879158</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
