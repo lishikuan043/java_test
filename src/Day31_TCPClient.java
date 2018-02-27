@@ -17,6 +17,7 @@ public class Day31_TCPClient {
         while ((len = fi.read(data)) != -1) {
             os.write(data,0,len);
         }
+        socket.shutdownOutput();
         InputStream is = socket.getInputStream();
         len = is.read(data);
         System.out.println(new String(data,0,len));
