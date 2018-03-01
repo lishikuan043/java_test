@@ -84,4 +84,8 @@ public class Student implements Serializable, Comparable<Student> {
         result = 31 * result + age;
         return result;
     }
+
+    public void printOut(String s) {
+        System.out.println(s);
+    }
 }
