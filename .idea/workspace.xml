@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb0d6942-0dd4-4c8b-a60e-4667b523fd2b" name="Default" comment="Finish Day31.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/Day32.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Day32_test3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Day32_test4.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Day32_test5.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Day32_test6.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Day32_test7.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Day32_test8.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/itheima/DemoClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="bb0d6942-0dd4-4c8b-a60e-4667b523fd2b" name="Default" comment="Finish Day32.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java_test.iml" afterPath="$PROJECT_DIR$/Java_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Student.java" afterPath="$PROJECT_DIR$/src/Student.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -793,7 +782,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519715717185</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Finish Day32.">
+      <created>1519906206541</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1519906206541</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -873,7 +869,8 @@
     <MESSAGE value="Add Day31." />
     <MESSAGE value="Add Day31_UDPTalk." />
     <MESSAGE value="Finish Day31." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Day31." />
+    <MESSAGE value="Finish Day32." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Day32." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
