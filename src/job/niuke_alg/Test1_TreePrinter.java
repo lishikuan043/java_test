@@ -1,4 +1,4 @@
-package job;
+package job.niuke_alg;
 
 import java.util.*;
 
@@ -11,7 +11,7 @@ class TreeNode {
         this.val = val;
     }
 }
-public class TreePrinter {
+public class Test1_TreePrinter {
     public int[][] printTree(TreeNode root) {
         // write code here
         ArrayList<List<Integer>> lists = new ArrayList<>();

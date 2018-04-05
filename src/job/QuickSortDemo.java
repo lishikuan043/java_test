@@ -28,11 +28,10 @@ public class QuickSortDemo {
         if (end>l) {
             quickSort(ints,h+1,end);
         }
-
     }
 
     public static void main(String[] args) {
-        int[] ints = {2,5,3,8,4,10,6,6546,1321,48,54};
+        int[] ints = {2,5,3,8,8,9,4,10,6,6546,1321,48,54};
 
         quickSort(ints,0,ints.length-1);
         for(int i:ints) {
