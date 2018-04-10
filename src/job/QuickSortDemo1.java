@@ -6,17 +6,17 @@ public class QuickSortDemo1 {
         int l = low;
         int h = high;
         while(l<h) {
-            while (l<h && array[h] > key) {
+            while(array[h] >= key&& l < h) {
                 h--;
             }
             if (l < h) {
                 array[l] = array[h];
                 l++;
             }
-            while (l<h && array[l] < key) {
+            while (array[l]<key&&l<h) {
                 l++;
             }
-            if (l < h) {
+            if (l<h) {
                 array[h] = array[l];
                 h--;
             }
