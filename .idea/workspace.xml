@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb0d6942-0dd4-4c8b-a60e-4667b523fd2b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/job/Huawei/temptest1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/job/Huawei/temptest2.java" />
+    <list default="true" id="bb0d6942-0dd4-4c8b-a60e-4667b523fd2b" name="Default" comment="Add some niuke_alg test.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/job/BinarySearchDemo1.java" afterPath="$PROJECT_DIR$/src/job/BinarySearchDemo1.java" />
+      <change beforePath="$PROJECT_DIR$/src/job/Huawei/temptest2.java" afterPath="$PROJECT_DIR$/src/job/Huawei/temptest2.java" />
+      <change beforePath="$PROJECT_DIR$/src/job/QuickSortDemo1.java" afterPath="$PROJECT_DIR$/src/job/QuickSortDemo1.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,19 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test2_3_heapsort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/job/niuke_alg/Test2_3_heapsort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="903">
-              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding>
-                <element signature="e#946#947#0" expanded="true" />
-                <element signature="e#980#981#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HeapSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/job/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="temptest2.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="temptest2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/job/Huawei/temptest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="210">
+              <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="temptest1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="temptest1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/job/Huawei/temptest1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+            <state relative-caret-position="441">
+              <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,11 +91,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeapSort1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/job/HeapSort1.java">
+      <file leaf-file-name="BinarySearchDemo1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/job/BinarySearchDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="147">
+              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinarySearchDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/job/BinarySearchDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -188,15 +186,15 @@
         <option value="$PROJECT_DIR$/src/job/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/job/niuke_alg/Test2_4_ScaleSort.java" />
         <option value="$PROJECT_DIR$/src/job/niuke_alg/Test2_5_ThreeColor.java" />
-        <option value="$PROJECT_DIR$/src/job/QuickSortDemo1.java" />
         <option value="$PROJECT_DIR$/src/job/QuickSortDemo.java" />
-        <option value="$PROJECT_DIR$/src/job/BinarySearchDemo1.java" />
         <option value="$PROJECT_DIR$/src/job/LinkReverse.java" />
         <option value="$PROJECT_DIR$/src/job/HeapSort1.java" />
         <option value="$PROJECT_DIR$/src/job/niuke_alg/Test2_6_Finder.java" />
         <option value="$PROJECT_DIR$/src/job/niuke_alg/Test2_7_Subsequence.java" />
-        <option value="$PROJECT_DIR$/src/job/Huawei/temptest2.java" />
         <option value="$PROJECT_DIR$/src/job/Huawei/temptest1.java" />
+        <option value="$PROJECT_DIR$/src/job/QuickSortDemo1.java" />
+        <option value="$PROJECT_DIR$/src/job/BinarySearchDemo1.java" />
+        <option value="$PROJECT_DIR$/src/job/Huawei/temptest2.java" />
       </list>
     </option>
   </component>
@@ -207,8 +205,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="254" />
-    <option name="y" value="61" />
+    <option name="x" value="336" />
+    <option name="y" value="47" />
     <option name="width" value="1409" />
     <option name="height" value="902" />
   </component>
@@ -230,7 +228,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,31 +252,23 @@
               <item name="Java_test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="job" type="462c0819:PsiDirectoryNode" />
-              <item name="niuke_alg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-              <item name="niuke_alg" type="462c0819:PsiDirectoryNode" />
-              <item name="Test1_TreePrinter.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="Huawei" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2739726" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -295,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.temptest1">
+  <component name="RunManager" selected="Application.BinarySearchDemo1">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -303,14 +293,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="HeapSort1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="BinarySearchDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="job.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="job.HeapSort1" />
+      <option name="MAIN_CLASS_NAME" value="job.BinarySearchDemo1" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -322,14 +312,14 @@
       <module name="Java_test" />
       <envs />
     </configuration>
-    <configuration name="Test2_6_Finder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="QuickSortDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="job.niuke_alg.*" />
+          <option name="PATTERN" value="job.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="job.niuke_alg.Test2_6_Finder" />
+      <option name="MAIN_CLASS_NAME" value="job.QuickSortDemo1" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -590,19 +580,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.HeapSort1" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Test2_6_Finder" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Test2_7_Subsequence" />
-      <item index="3" class="java.lang.String" itemvalue="Application.temptest2" />
-      <item index="4" class="java.lang.String" itemvalue="Application.temptest1" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Test2_7_Subsequence" />
+      <item index="1" class="java.lang.String" itemvalue="Application.temptest2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.temptest1" />
+      <item index="3" class="java.lang.String" itemvalue="Application.QuickSortDemo1" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BinarySearchDemo1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.temptest1" />
-        <item index="1" class="java.lang.String" itemvalue="Application.temptest2" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Test2_7_Subsequence" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Test2_6_Finder" />
-        <item index="4" class="java.lang.String" itemvalue="Application.HeapSort1" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BinarySearchDemo1" />
+        <item index="1" class="java.lang.String" itemvalue="Application.QuickSortDemo1" />
+        <item index="2" class="java.lang.String" itemvalue="Application.temptest1" />
+        <item index="3" class="java.lang.String" itemvalue="Application.temptest2" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Test2_7_Subsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -637,7 +627,12 @@
       <workItem from="1522670236060" duration="5326000" />
       <workItem from="1522736241996" duration="4043000" />
       <workItem from="1523447460908" duration="905000" />
-      <workItem from="1523453277836" duration="3000" />
+      <workItem from="1523453277836" duration="33000" />
+      <workItem from="1523519268565" duration="595000" />
+      <workItem from="1523528784403" duration="1227000" />
+      <workItem from="1523603243731" duration="1554000" />
+      <workItem from="1524395653030" duration="895000" />
+      <workItem from="1524398498350" duration="220000" />
     </task>
     <task id="LOCAL-00001" summary="Some changes.">
       <created>1517415840287</created>
@@ -807,14 +802,21 @@
       <option name="project" value="LOCAL" />
       <updated>1522677283014</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Add some niuke_alg test.">
+      <created>1523453293190</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1523453293190</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46964000" />
+    <option name="totallyTimeSpent" value="51485000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="254" y="61" width="1409" height="902" extended-state="0" />
+    <frame x="336" y="47" width="1409" height="902" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -824,11 +826,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32506528" sideWeight="0.5070422" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32503277" sideWeight="0.49295774" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21148825" sideWeight="0.4918382" order="3" side_tool="false" content_ui="tabs" x="503" y="607" width="973" height="194" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1462141" sideWeight="0.4918382" order="3" side_tool="false" content_ui="tabs" x="503" y="607" width="973" height="194" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23067485" sideWeight="0.49371767" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21793921" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22613065" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24982001" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1121,10 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="e#388#389#0" expanded="false" />
-            <element signature="e#456#457#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1132,7 +1130,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1140,7 +1137,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="9" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,10 +1144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="903">
           <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1159,23 +1151,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/job/BinarySearchDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/job/BinarySearchDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1183,15 +1158,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/job/QuickSortDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1199,23 +1165,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/job/niuke_alg/Test2_5_ThreeColor.java">
+    <entry file="file://$PROJECT_DIR$/src/job/QuickSortDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="273">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/job/HeapSort1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="294">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1235,14 +1198,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/job/niuke_alg/Test2_6_Finder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/job/niuke_alg/Test1_TreePrinter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1251,13 +1206,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/job/Huawei/temptest2.java">
+    <entry file="file://$PROJECT_DIR$/src/job/niuke_alg/Test2_6_Finder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1269,10 +1222,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/job/Huawei/temptest1.java">
+    <entry file="file://$PROJECT_DIR$/src/job/BinarySearchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/job/niuke_alg/Test2_5_ThreeColor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/job/BinarySearchDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/job/Huawei/temptest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/job/Huawei/temptest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1332,6 +1319,18 @@
       <state key="ModuleStructureConfigurable.UI">
         <settings>
           <last-edited>Java_test</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -8,7 +8,7 @@ public class temptest2 {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNextLine()) {
             int n = Integer.parseInt(scanner.nextLine());
-            TreeSet<Integer> treeSet = new TreeSet<>();
+            TreeSet<Integer> treeSet = new TreeSet<Integer>();
             for (int i = 0; i < n; i++) {
                 treeSet.add(Integer.parseInt(scanner.nextLine()));
             }
